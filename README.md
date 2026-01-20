@@ -5,7 +5,8 @@ This project implements and evaluates various deep learning architectures for tw
 The goal was to analyze the impact of architectural choices, hyperparameter tuning, and data augmentation on model performance, culminating in 2 technical reports detailing the experimental methodology.
 
 ### Part 1: Image Classification
-* **Datasets:** * `Imagebits`: 10-class general object dataset ($96\times96$ RGB).
+* **Datasets:**
+    * `Imagebits`: 10-class general object dataset ($96\times96$ RGB).
     * `Land Patches`: 10-class satellite imagery dataset ($64\times64$ RGB) for land use classification.
 * **Architectures:** * **MLP (Multi-Layer Perceptron):** Baseline fully connected networks.
     * **CNN (Convolutional Neural Networks):** Custom architectures exploring convolutional filters, pooling layers, and batch normalization.
